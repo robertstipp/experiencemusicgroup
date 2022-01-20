@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+.card {
+  height: 10%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  margin: 1% 0% 1% 0%;
+  padding: 1% 0.4% 1% 0.4%;
+  border-radius: 3px;
+  background: rgba(249, 249, 249, 0.2);
+}
+
+.artist {
+  margin-top: 8px;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+.image {
+  margin: auto;
+  height: 200px;
+}

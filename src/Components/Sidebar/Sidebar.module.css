@@ -1,0 +1,19 @@
+.label {
+  height: 3%;
+  width: 80%;
+  font-size: 1.3rem;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0.5rem;
+  border-radius: 2px;
+}
+
+.label:hover {
+  color: rgba(107, 159, 29, 1);
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
