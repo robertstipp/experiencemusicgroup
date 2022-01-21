@@ -2,11 +2,12 @@
 
 .container {
   margin: 10% 20% 0 20%;
+  border: 1px solid black;
 }
 
 .text {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
