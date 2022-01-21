@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import { links, social } from "./data.js";
-import { FaTiktok } from "react-icons/fa";
+
 import Logo from "./logo.png";
 
 const Navbar = () => {
@@ -31,7 +31,12 @@ const Navbar = () => {
             const { id, icon, url } = socialicon;
             return (
               <div key={id} className={styles.socialicon}>
-                <a className={styles.sociallink} href={url}>
+                <a
+                  className={styles.sociallink}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {icon}
                 </a>
               </div>
